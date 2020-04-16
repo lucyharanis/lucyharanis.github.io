@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="images/favicon-128.png" sizes="128x128" />
+	
+<!-- Basic page needs -->
+<meta charset="utf-8">
+<title>A Quiet Fox ♡</title>
+<meta name="description" content="">
+<meta name="author" content="Lucy Haranis">
+
+<!-- Mobile specific metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Font  -->
+<!-- heading font cursive and regular type-->
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bellefair|Dancing+Script|Montserrat" rel="stylesheet">
+<!-- body text font old-->
+<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet" type="text/css">
+	
+	
+
+<!-- FONT AWESOME YO :) (for calender symbols) -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+  <!--FONTASTIC FONT ICONS AND MINE :) -->
+<link href="https://file.myfontastic.com/QMpSPAbUj9oPutveubudi6/icons.css" rel="stylesheet">
+
+
+  <!-- CSS -->
+   <!-- skeleton's css -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+   <!-- this is for the pop-up gallery modal :) -->
+  <link rel="stylesheet" href="css/remodal.css">
+  <link rel="stylesheet" href="css/remodal-default-theme.css">
+   <!-- skeleton custom: my main css styling file :) -->
+  <link rel="stylesheet" href="css/custom.css">
+
+<!-- Favicon -->
+<!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+
+</head>
+
+
+<body>
+<!-- not sure remodal-bg div.. possibly container div for a background image ..-->
+<div class="remodal-bg">
+
+  <!-- Primary Page Layout -->
+  <!-- HEADER SECTION-->
+  <header class="header section">
+  
+    <!-- heading -->
+    <img src="images/alucysfolio/LucyBannerV1.png" alt="LucyHaranis" class="header-banner">
+
+    <!--SOCIAL-->
+    <nav id="jams">
+      <ul>
+        <li><a href="http://www.behance.net/aquietfox" target="_blank"><img src="images/alucysfolio/bejam.png" alt="I"></a></li>
+        <li><a href="http://lucysfolio.com" target="_blank"><img src="images/jams/dailyjam.png" alt="DJ"></a></li>
+        <li><a href="http://www.instagram.com/aquietfox/" target="_blank"><img src="images/alucysfolio/instajam.png" alt="B"></a></li>
+      </ul>
+    </nav>
+    
+  <div class="container">
+	  <!-- new nav: -->	
+	<div class="topnav" id="myTopnav">
+		<a href="contact.html" class="active">Contact</a>
+		<a href="animation.html">Animation</a>
+		<a href="games.html">Games</a>
+		<a href="about.html">About</a>
+	    <a href="illustration.html">Illustration</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<!-- end new nav -->
+	  
+<!--NAVIGATION
+    <nav id="mainnav">
+      <ul>
+        <li><a href="animation.html">Animation</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="illustration.html">Illustration</a></li>
+        <li><a href="contact.html">Contact</a></li>
+		  
+      </ul>
+    </nav>
+-->
+  </div>
+</header>
+<!--CLOSE HEADER SECTION-->
+
+
+<!-- MAIN CONTENT: -->
+<section class="section main" id="text">
+	<div class="container">
+		
+        <div class="blog">
+        	<div class="row">
+
+<!-- THE STORY -->
+<div class="twelve columns">
+    <h1></h1>
+        <h2>Visual Designer</h2>
+		  <h3>Contact</h3>
+
+<p>Well hello there.. why not leave a friendly message at your leisure :) </p>
+
+<p>Email: lucy@aquietfox.com </p>
+
+<p>안녕하세요, ohayo gozaimasu, velkommen, bonjour mes amies!</p>
+
+
+</div>
+
+       </div> 
+       <hr>
+    <!--   <pid="centred"><a href="#">Back to top :)</a></p> -->
+			
+    </div>     
+  </div>
+<!-- closing for MAIN CONTENT section :) -->
+</section>
+
+<!-- End Document -->
+
+
+<!--FOOTER-->
+<img src="images/banner/footergrass.png" alt="flowers" max-width="100%">
+<footer>&#169 Copyright 2018 Lucy Haranis - A Quiet Fox
+</footer>
+
+<!-- this is the close div for the remodal-bg div :) -->
+</div>
+
+
+<!-- BELOW OPTIONAL MODAL POP-UP :) -->
+<!-- The below won't actually show as it's 'hidden' :) -->
+
+<!--
+***
+This content needs to be a-reffed on an above thumbnail image in the main section, as seen on gallery page... this will then create a target for the pop-up modal below :) 
+(use this for each image you want popped up, and apply separately to each above image... change id 'illustration-one' to match also changed data-remodal id below, particular to what image.. :) )
+example to put above with the image you want popped up:
+
+<div class="illustration">
+        <h4>Deer Dreams</h4>
+        <p><i class="fa fa-calendar" aria-hidden="true"></i> May 21st 2016</p> 	
+  <a data-remodal-target="illustration-one"><img src="http://dummyimage.com/600x400/000/fff" alt="deer" max-width="100%"></a>        
+        <hr>
+</div>
+***
+-->
+
+
+<!-- REMODAL MODAL WINDOWS FOR GALLERY ILLUSTRATIONS -->
+                                      <!-- change this id for each modal -->
+<!--
+***example:
+<div class="remodal" data-remodal-id="illustration-one">
+  <button data-remodal-action="close" class="remodal-close"></button> <h4>Deer Dreams</h4>
+        <p><i class="fa fa-calendar" aria-hidden="true"></i> May 21st 2016</p>  
+        <img src="http://dummyimage.com/600x400/000/fff" alt="deer" max-width="100%">  
+</div>
+***-->
+
+
+<!-- JQUERY SOURCING and modal script :) need for modals to work! -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="js/remodal.min.js"></script>
+	
+	<!-- SCRIPT for jquery newnav responsive and hamburger :) -->
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
+
